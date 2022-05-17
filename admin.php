@@ -16,23 +16,28 @@ else {
     <ul>
     <li>
         <?= $bienvenue ?>
+        <br>
         <a href="http://localhost/docthorible/index.php"><input type="button" value="Ajout Patient" /></a>
         <a href="http://localhost/docthorible/liste_patients.php"><input type="button" value="Liste des patients" /></a>
+        <a href="reservation_admin.php"><input type="button" value="Voir les réservations" /></a>
 
         <br><br>
 
 
         <input type="text" name="nom" placeholder="Patient" value=""/>
         <input type="submit" value="Search" />
-        </form>
-
+        <br> <br>
+        <a href="deconnexion.php"><input type="button" value="Se déconnecter" /></a>
     </li>
-    </form>
+    
 
     <?php
     }
     ?>
 
-    <br><a href="deconnexion.php">Se déconnecter</a>
+    <br>
+
+
         </body>
+</form>
     </html>

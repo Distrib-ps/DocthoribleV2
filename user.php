@@ -77,7 +77,7 @@ for ($n =0; $n < $count ; $n++) {
 
         <a href="reservation.php"><input type="button" value="Réserver un rendez-vous" /></a>
         
-
+        <a href="reservation_user.php"><input type="button" value="Voir mes rendez-vous" /></a>
         <br><br>
     
 
